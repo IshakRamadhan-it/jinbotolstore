@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Welcome to JinBotoL</title>
 </head>
 
@@ -51,7 +52,7 @@
 
   <!-- Service Section -->
   <section id="services">
-    <div class="services container">
+    <div class="services container" data-aos="zoom-out-up" data-aos-duration="1500">
       <div class="service-top">
         <h1 class="section-title">Serv<span>i</span>ces</h1>
         <p>Adami Storeku sappo, bisa joki / beli diamond trusted amanah Insyaa Allah yang pnting halal dan berkah broder</p>
@@ -86,10 +87,10 @@
   <!-- Projects Section -->
   <section id="projects">
     <div class="projects container">
-      <div class="projects-header">
+      <div class="projects-header" data-aos="zoom-out-up" data-aos-duration="1500">
         <h1 class="section-title">Recent <span>Projects</span></h1>
       </div>
-      <div class="all-projects">
+      <div class="all-projects" data-aos="zoom-out-up" data-aos-duration="1500">
         <div class="project-item">
           <div class="project-info">
             <h1>Project 1</h1>
@@ -147,13 +148,13 @@
 
   <!-- About Section -->
   <section id="about">
-    <div class="about container">
-      <div class="col-left">
+    <div class="about container" data-aos-duration="1500">
+      <div class="col-left" data-aos="zoom-out-up" data-aos-duration="1500">
         <div class="about-img">
           <img src="./img/jinbotol.jpg" alt="img">
         </div>
       </div>
-      <div class="col-right">
+      <div class="col-right" data-aos="zoom-out-left" data-aos-duration="1500">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Front End Developer</h2>
         <p class="section-tittle"> Janganlah pernah menyerah ketika Anda masih mampu berusaha lagi. 
@@ -166,11 +167,12 @@
 
   <!-- Contact Section -->
   <section id="contact">
-    <div class="contact container">
+    <div class="contact container" data-aos-duration="3000">
       <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
+        <h1 class="section-title" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Contact <span>info</span> </h1>
       </div>
-      <div class="contact-items">
+      <div class="contact-items" data-aos="zoom-out-left" data-aos-duration="2000">
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
           <div class="contact-info">
@@ -203,7 +205,7 @@
 
   <!-- Footer -->
   <section id="footer">
-    <div class="footer container">
+    <div class="footer container" data-aos="zoom-in" data-aos-duration="1500">
       <div class="brand">
         <h1>Muh <span>Ishak </span>Ramadhan<Nav></Nav></h1>
       </div>
@@ -227,6 +229,10 @@
   </section>
   <!-- End Footer -->
   <script src="./app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
