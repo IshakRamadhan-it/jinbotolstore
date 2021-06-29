@@ -70,9 +70,6 @@ p {
 .brand h1 span {
 	color: crimson;
 }
-.skills .title::after{
-    content: " what i know";
-}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
