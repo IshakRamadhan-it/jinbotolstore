@@ -125,19 +125,19 @@ p {
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 100%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 100%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 95%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 90%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 85%;
 }
 /* teams section styling */
 .teams .title::after{
@@ -332,7 +332,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.jpeg);
+	background-image: url(./img/jinbotols\ \(2\).jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
