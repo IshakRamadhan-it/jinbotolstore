@@ -131,13 +131,13 @@ p {
     width: 100%;
 }
 .skills-content .right .js::before{
-    width: 95%;
+    width: 100%;
 }
 .skills-content .right .php::before{
-    width: 90%;
+    width: 95%;
 }
 .skills-content .right .mysql::before{
-    width: 85%;
+    width: 90%;
 }
 /* teams section styling */
 .teams .title::after{
@@ -529,6 +529,7 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
+
 /* End Projects section */
 
 /* About Section */
